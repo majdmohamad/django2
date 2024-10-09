@@ -1,0 +1,32 @@
+{% extends 'base.html'%}
+
+
+{% block index %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/index1.css' %}">
+
+<div class="mai">
+        <div>
+            <h1>Wellcom in Model</h1>
+            <h3>You can start shopping now</h3>
+            <div class="mainimg">
+                <div class="one">
+                    <h2>products one</h2>
+                    <img src="{% static 'image/pexels-rasa-st-1296910-12738154.jpg' %}" width="300px" height="300px">
+                </div>
+                <div class="two">
+                    <h2>products two</h2>
+                    <img src="{% static 'image/pexels-nyaraaquino-8159427.jpg' %}" width="300px" height="300px">
+                </div>
+                <div class="three">
+                    <h2>products three</h2>
+                    <img src="{% static 'image/pexels-craytive-1464624.jpg' %}" width="300px" height="300px">
+                </div>
+            </div>
+        </div>
+        
+</div>
+
+{% endblock index %}
+
+

@@ -1,0 +1,30 @@
+.mai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93%;
+    text-align: center;
+    color: rgb(10, 10, 144);
+}
+.mainimg{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    
+}
+.mainimg .one{
+    padding:25px;
+    z-index: 6;
+    flex: 1;
+}
+.mainimg .two{
+    padding:25px;
+    z-index: 6;
+    flex: 1;
+}
+.mainimg .three{
+    padding:25px;
+    z-index: 6;
+    flex: 1;
+}

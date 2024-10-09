@@ -1,0 +1,14 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/header.css' %}">
+<body>
+<div class="nav">
+    <div class="container">
+        <span class="logo">Model</span>
+        <span class="login"><a href="{% url 'login1' %}">Login</a></span>
+        <span><a class="{% if current_page == 'about' %}active{% endif %}" href="{% url 'about' %}">About</a></span>
+        <span><a class="{% if current_page == 'products' %}active{% endif %}" href="{% url 'products' %}">Products</a></span>
+        <span><a class="{% if current_page == 'home' %}active{% endif %}" href="{% url 'index' %}">Home</a></span>
+    </div>
+</div>
+<script src="{% static 'js/header.js' %}"></script>
+</body>

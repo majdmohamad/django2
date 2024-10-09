@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block products %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/products.css' %}">
+<div class="products">
+    {% for x in pro %}
+    <div class="prod">
+        <h1>{{x.name}} {{x.price}}$</h1>
+        <h3>{{x.content}}</h3>
+        <img src="{{x.image.url}}" alt="" width="300px" height="300px">
+    </div>
+    {% endfor %}
+</div>
+{% endblock products %}

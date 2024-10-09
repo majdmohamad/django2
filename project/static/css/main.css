@@ -1,0 +1,12 @@
+body{
+    background-image: url("../image/pexels-mnzoutfits-1639729.jpg") ;
+    background-size: cover;
+    position: relative;
+}
+.foot{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
